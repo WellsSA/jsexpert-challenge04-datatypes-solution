@@ -77,7 +77,7 @@ https://user-images.githubusercontent.com/41883467/153467415-9c8091d2-97dc-4fcc-
 
 ### Extras
 
-- [ ] Desafio opcional: Caso queira, valide se é possível a implementação com WeakSet e WeakMap, implemente e/ou deixe um comentário sobre no código.
+- [X] Desafio opcional: Caso queira, valide se é possível a implementação com WeakSet e WeakMap, implemente e/ou deixe um comentário sobre no código.
 - [ ] Desafio opcional: Caso queira, tente aplicar alguns testes no desafio e entender o funcionamento de cada trecho mais a fundo.
 
 
@@ -118,13 +118,13 @@ project
 
 ### Checklist features
 
-- [ ] Deve implementar a estrutura esperada em `util/CustomTerminal.js`
+- [X] Deve implementar a estrutura esperada em `util/CustomTerminal.js`
 
-- [ ] Deve implementar os métodos existentes em `service/CryptoService.js`
+- [X] Deve implementar os métodos existentes em `service/CryptoService.js`
 
-- [ ] Deve implementar a estrutura esperada no arquivo `entity/User.js`
+- [X] Deve implementar a estrutura esperada no arquivo `entity/User.js`
 
-- [ ] Deve implementar as estruturas esperadas no arquivo `entity/Users.js`
+- [X] Deve implementar as estruturas esperadas no arquivo `entity/Users.js`
 
 ## Submissão
 
