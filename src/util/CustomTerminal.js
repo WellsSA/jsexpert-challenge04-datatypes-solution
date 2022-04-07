@@ -21,6 +21,15 @@ class CustomTerminal {
     // TODO: inicializar a propriedade privada 'kData' como uma estrutura importante vista no curso
     this[kData] = new Map();
 
+    /*
+    (Desafio opcional): Compensaria usar um WeakMap nesse caso?
+    Resposta: não, pois além do WeakMap não ser enumerável (não permite listar as chaves e não implementa um iterator por padrão), 
+    ele só aceita objetos como chave, o que influenciaria na busca das informações que precisamos. O que nos faria ter que desenvolver uma série de
+    funcionalidades que o Map já traz por padrão.
+    E olha que nem precisamos entrar no mérito das chaves serem sempre referências fracas (o Garbage collector considera que pode limpar elas se não 
+    tiver ninguém usando - o que causaria alguns efeitos colaterais já que nesse caso esperamos sempre ter a informação lá)
+    */
+
     this[kTerminal] = null;
   }
 

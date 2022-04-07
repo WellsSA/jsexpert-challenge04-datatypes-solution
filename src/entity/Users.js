@@ -6,6 +6,12 @@ class Users {
   constructor() {
     // TODO: inicializar a propriedade privada 'kUsers' como uma estrutura importante vista no curso
     this[kUsers] = new Set();
+    /*
+      (Desafio opcional): Compensaria usar um WeakSet nesse caso?
+      Resposta: não, nesse caso mesmo que o fato do WeakSet lidar apenas com coleções de objetos e não valores arbitrários de qualquer tipo não seja um 
+      problema para a nossa implementação, o fato dos objetos nas coleções serem mantidos "fracamente" pode trazer efeitos colaterais inesperados, já que 
+      quando não há outra referência para um objeto mantido no WeakSet, ele pode ser coletado pelo Garbage collector (gerenciador de memória).
+      */
   }
 
   add(userRaw) {
